@@ -35,7 +35,7 @@ mod internal {
         control::{Control, Flags, Type, Value},
         frameinterval::FrameIntervalEnum,
         framesize::FrameSizeEnum,
-        io::traits::{CaptureStream, Stream},
+        io::traits::CaptureStream,
         prelude::MmapStream,
         video::{capture::Parameters, Capture},
         Device, Format, FourCC,
